@@ -3,6 +3,7 @@ import requests
 #Создать задачу, Проставить отметку о выполнении и проверить что completed ==True
 
 def test_task():
+    """ Тест про про"""
     # создаю
     body = {"title":"generated","completed":False}
     response = requests.post("https://todo-app-sky.herokuapp.com/", json=body)
